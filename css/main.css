@@ -1,30 +1,16 @@
 .head {
-    background: #fc0;
-    height: 100px;
-    position: relative;
-    width: 100px;
-  }
-  .face {
-    font-family: 'courier new', serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -60%) rotate(90deg);
-  }
-  div.avatar {
-    /* cambia estos dos valores para definir el tamaño de tu círculo */
-    height: 100px;
-    width: 100px;
-    /* los siguientes valores son independientes del tamaño del círculo */
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
+  background: #fc0;
+  height: 100px;
+  position: relative;
+  width: 100px;
 }
-.imgRedonda {
-  width:300px;
-  height:300px;
-  border-radius:150px;
+.face {
+  font-family: 'courier new', serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -60%) rotate(90deg);
 }
+
