@@ -8,16 +8,20 @@
     </head>
     <body>
         <div class="page">
-            <div class="head">
-                <div class="face">:|</div>
+            
                 <script>
-                    function guina_el_ojo(){
-                        <div class="face">:|</div>
-                        <div class="face">.|</div>
+                    function guina_el_ojo()
+                    {
+                        face.innerHTML = ".|";
+                        //<div class="face">:|</div> esto era lo mio
+                        //<div class="face">.|</div>
+                    
                     }
-                    //onclick y onmousemove son los eventos javascript de clickar y ponerse encima
+                    //onclick y onmouseover son los eventos javascript de clickar y ponerse encima
                 </script>
-                    <div onclick="guina_el_ojo"></div>
+                <div class="head" onclick="guina_el_ojo();">
+                    <div class="face">:|</div>
+
             </div>
         </div>        
     </body>
